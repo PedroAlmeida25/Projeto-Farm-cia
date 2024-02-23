@@ -10,20 +10,22 @@ using System.Windows.Forms;
 
 namespace ProjetoFarmácia
 {
+  
     public partial class Form1 : Form
     {
         DAO bd;
-        public int codigo;
+        public string codigo;
         public string nome;
         public string telefone;
+        public string documento;
         public string endereco;
-        public string Rg;
+        
         public Form1()
         {
             InitializeComponent();
             bd = new DAO();//Conectar a tela com a classe DAO
-        }//fim do método construtor
 
+        }//fim do método construtor
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -59,17 +61,17 @@ namespace ProjetoFarmácia
             int cod = Convert.ToInt32(codigo);
             string name = nome;
             string tel = telefone;
+            string rg = documento;
             string end = endereco;
-            string rg = Rg;
 
-            bd.Inserir(cod, name, tel, end, rg);//Inserindo no BD
+            bd.Inserir(cod, name, tel, rg, end);//Inserindo no BD
 
             //Limpando os campos
-            codigo = 0;
+            codigo = "";
             nome = "";
             telefone = "";
+            documento = "";
             endereco = "";
-            Rg = "";
         }//fim do botão cadastrar
     }//fim da classe
 }//fim do projeto

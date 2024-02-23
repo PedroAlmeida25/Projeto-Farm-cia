@@ -41,3 +41,4 @@ C:\Users\pedro.asalmeida1\source\repos\ProjetoFarmácia\ProjetoFarmácia\obj\Deb
 C:\Users\pedro.asalmeida1\source\repos\ProjetoFarmácia\ProjetoFarmácia\obj\Debug\ProjetoFarmácia.csproj.CopyComplete
 C:\Users\pedro.asalmeida1\source\repos\ProjetoFarmácia\ProjetoFarmácia\obj\Debug\ProjetoFarmácia.exe
 C:\Users\pedro.asalmeida1\source\repos\ProjetoFarmácia\ProjetoFarmácia\obj\Debug\ProjetoFarmácia.pdb
+C:\Users\pedro.asalmeida1\source\repos\ProjetoFarmácia\ProjetoFarmácia\obj\Debug\ProjetoFarmácia.Menu.resources

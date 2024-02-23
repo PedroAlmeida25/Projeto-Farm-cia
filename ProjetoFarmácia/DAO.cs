@@ -95,5 +95,24 @@ namespace ProjetoFarmácia
             //Encerrar o banco
             leitura.Close();
         }//fim do método
+
+        public int RetornarContagem()
+        {
+            return contador;
+        }//fim do método 
+
+        public int SelecionarPorCodigo(int id)
+        {
+            PreencherVetor();
+
+            for(int i=0; i < RetornarContagem(); i++)
+            {
+                if (codigo[i] == id)
+                {
+                    return i;   
+                }//fim do if
+            }//fim do for
+            return -1;//Flag = Bandeira|Sinal
+        }//fim do método
     }//fim da classe
 }//fim da DAO
