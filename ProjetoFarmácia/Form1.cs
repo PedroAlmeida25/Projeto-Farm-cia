@@ -73,5 +73,6 @@ namespace ProjetoFarmácia
             documento = "";
             endereco = "";
         }//fim do botão cadastrar
+        
     }//fim da classe
 }//fim do projeto
